@@ -1,2 +1,3 @@
-# spotifywebap0593-api
-ScrumDev AI backend (spotifywebap0593-api)
+# SpotifyWebApp0593 Backend
+
+This is the backend for the SpotifyWebApp0593 project, built with FastAPI.
