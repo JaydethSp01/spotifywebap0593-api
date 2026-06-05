@@ -1,0 +1,22 @@
+from pydantic import BaseModel
+class Usuario(BaseModel):
+    id: int
+    nombre: str
+    email: str
+class Album(BaseModel):
+    id: int
+    titulo: str
+    artista: str
+class Bitacora(BaseModel):
+    id: int
+    usuario_id: int
+    album_id: int
+    comentario: str
+class Estadisticas(BaseModel):
+    id: int
+    usuario_id: int
+    total_escuchas: int
+class TarjetaEstetica(BaseModel):
+    id: int
+    album_id: int
+    imagen_url: str
